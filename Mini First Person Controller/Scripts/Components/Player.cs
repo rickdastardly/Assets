@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
 
         if (thirst >= maxThirst)
         {
-            healthDecreaseRate = healthDecreaseRate + 0.25;
+            Die();
         }
 
 
